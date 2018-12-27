@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+
+#home {
+    height: 800px;
+}
+
+#wid {
+    height: 800px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-transparent {
+    border: 0;
+    border-radius:0;
+    background: rgba(0, 0, 0, 0.03) !important;
+}
