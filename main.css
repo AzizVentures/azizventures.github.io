@@ -41,3 +41,10 @@ h1 {
 #icontainer {
     width: 1200px ;
 }
+
+.footer {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+ }
