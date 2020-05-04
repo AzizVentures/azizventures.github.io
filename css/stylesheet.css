@@ -107,6 +107,21 @@ html {
     .image-padding {
         padding-bottom: 10% !important;
     }
+
+    .home-jumbotron-title {
+        font-size: 60px;
+    }
+
+    .home-jumbotron-desc {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .who-we-are-image {
+        width: 305px;
+        height: 180px;
+    }
 }
 
 .footerfooter {
