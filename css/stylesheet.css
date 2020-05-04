@@ -1,0 +1,120 @@
+.home-jumbotron {
+    background: rgba(0, 0, 0, 0.24) url('../assets/images/background3.webp');
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
+.home-jumbotron-content {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    padding-top: 5%;
+}
+
+.home-jumbotron-title {
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.home-jumbotron-desc {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-right: 40%;
+}
+
+.who-we-are-image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.who-we-are-jumbotron {
+    background-color: white;
+}
+
+.what-we-do-jumbotron {
+    background-color: #F3F5F7;
+}
+
+.who-we-are-desc {
+    font-size: 25px;
+}
+
+.what-we-do-desc {
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.card-columns {
+    padding-top: 5% !important;
+}
+
+.contact-jumbotron {
+    background-color: white;
+    background: rgba(0, 0, 0, .15) url('../assets/images/background2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0% !important;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.email-btn {
+    font-size: 20px;
+    font-weight: bolder !important;
+    color: black;
+}
+
+.linkedin-image {
+    width: 95px;
+    height: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.big-container {
+    height: 100%;
+    width: 100%;
+}
+
+.image-padding {
+    padding-top: 3%; 
+    padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 710px) {
+    .who-we-are-image {
+        width: 405px;
+        height: 250px;
+    }
+
+    .image-padding {
+        padding-bottom: 10% !important;
+    }
+}
+
+.footerfooter {
+    height: 100%;
+    line-height: 60px;
+    background-color: rgb(190, 86, 91) !important;
+} 
+
+.footerfooter-text {
+    color: white !important;
+}
