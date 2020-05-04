@@ -124,6 +124,12 @@ html {
     }
 }
 
+@media only screen and (max-width: 410px) {
+    .who-we-are-image {
+        width: 255px;
+        height: 140px;
+    }
+}
 .footerfooter {
     height: 100%;
     line-height: 60px;
