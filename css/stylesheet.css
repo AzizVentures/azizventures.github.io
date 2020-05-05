@@ -1,5 +1,5 @@
 .home-jumbotron {
-    background: rgba(0, 0, 0, 0.24) url('../assets/images/background3.webp');
+    background: rgba(0, 0, 0, 0.24) url('../assets/images/background3.png');
     background-blend-mode: darken;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 
 .contact-jumbotron {
     background-color: white;
-    background: rgba(0, 0, 0, .15) url('../assets/images/background2.webp');
+    background: rgba(0, 0, 0, .15) url('../assets/images/background2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,4 +140,9 @@ html {
 .footerfooter-text {
     color: white !important;
     font-weight: 600 !important;
+}
+
+.card {
+    width: 400px !important;
+    height: 200px !important;
 }
